@@ -46,8 +46,6 @@ export default function FormUsuario(){
   const regitrarUsuario = async (e)=>{
     e.preventDefault()
     let response = await crearUsuario({...value})  
-   
-    console.log(response)
     alert("Usuario Creado")
   }
 
